@@ -50,3 +50,4 @@ about naive Bayes, I only realize a word corrector. And I'll update some new pro
 ## Reference
 
 All the formula reference the 《统计学习方法》 and [This blog](https://blog.csdn.net/wyq_wyj/article/details/79485618)
+
