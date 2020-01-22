@@ -198,7 +198,7 @@ def innerL(i, oS):
 def smoP(dataMatIn, classLabels, C, toler, maxIter, kTup=('lin', 0)):  # 完整的Platter SMO
     oS = optStruct(mat(dataMatIn), mat(classLabels).transpose(), C, toler, kTup)
     iter = 0  # 计算循环的次数
-    entireSet = True;
+    entireSet = True
     alphaPairsChanged = 0
     while (iter < maxIter) and ((alphaPairsChanged > 0) or (entireSet)):
         alphaPairsChanged = 0
